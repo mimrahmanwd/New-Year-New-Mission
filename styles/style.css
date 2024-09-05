@@ -1,0 +1,296 @@
+
+body{
+    font-family: "Merriweather", serif;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: 700px;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.red{
+    color: #FF0000;
+}
+
+.header{
+    height: 700px;
+    background-image: url('../images/Banner\ Image.png');
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+}
+   
+   
+.container{
+    max-width: 1320px;
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.new-year p{
+
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.new-year h1{
+    text-align: center;
+    font-size: 72px;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+
+.off{
+    text-align: center;
+    color:#FF0000;
+    padding: 40px 0px;
+}
+
+.off h1{
+    font-size: 84px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.off p{
+    font-size:24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.off h4{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    padding: 0px;
+    margin: 0px;
+}
+
+.off-img{
+    display: flex;
+    justify-content: center;
+    margin:50px 0px;
+ 
+}
+
+.midnight-party{
+    height: 600px;
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    
+}
+
+.midnight-text h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    word-spacing:20px;
+    letter-spacing: 7px;
+}
+
+.midnight-text p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.common-style{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.midnight-text a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+
+}
+
+.btn-1{
+    border: 0;
+    background: #070211;
+    padding: 7px 15px;
+}
+
+.midnight-text{
+    padding: 100px 40px 100px 100px;
+}
+
+
+.twenty-twenty-four{
+    padding: 50px;
+}
+
+
+.info{
+    background-image: linear-gradient( #ffeaea, #FFFFFF );
+    text-align: center;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.info-text{
+    font-size: 32px;
+    font-weight: 400px;
+}
+
+.info-btn{
+    padding: 20px;
+}
+
+.info-btn .btn {
+    padding: 15px 30px;
+    background: #FF0000;
+    border: 0;
+    color: #FFFFFF;
+}
+
+.coming-soon-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.coming-soon{
+    padding-right:50px;
+}
+.coming-soon h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.coming-soon h3{
+    font-size: 43px;
+    font-weight: 700;
+    color:#070211;
+    padding: 25px 0px;
+    margin: 0px;
+}
+
+.gray{
+    font-size: 20px;
+    color:#4e4d4f;
+    margin: 0px;
+}
+
+.coming-soon-img img{
+    border: 10px solid  #FF0000;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.twenty-twenty-four h3 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 15px 0px;
+}
+.twenty-twenty-four{
+    padding: 50px 0px 50px 150px;
+}
+
+/* holidays style ----------- */
+
+.holidays-content{
+    text-align: center;
+    padding:  50px 200px;
+}
+.holidays-content h1{
+    font-size: 72px;
+    font-weight:700;
+    margin: 0;
+    padding: 10px 0;
+}
+.holidays-content p{
+    margin: 0px;
+}
+
+.discount-img{
+    display: flex;
+}
+
+.girl{
+    position: relative;
+    right: 215px;
+    top: 240px;
+    z-index: -1;
+}
+.discount{
+    position: relative;
+    top: 300px;
+    right: 50px;
+}
+
+.box{
+    position: relative;
+    bottom: -250px;
+}
+
+.holidays-content{
+    padding-bottom: 0px;
+    position: relative;
+    top:100px;
+}
+
+/* portfolio style ------------ */
+.portfolio-image-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.por-content{
+    margin-bottom: 50px;
+}
+
+/* subscribe style  */
+.subscribe{
+    text-align: center;
+    background-color:#fff2f2;
+
+    padding: 100px;
+}
+
+.spb{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.spb .btn{
+    padding: 18px 40px;
+    background: #FF0000;
+    color: #FFFFFF;
+    border: 0;
+}
+
+input{
+    padding:18px 40px ;
+    border: 0;
+}
+
