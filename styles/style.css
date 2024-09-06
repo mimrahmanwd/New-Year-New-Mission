@@ -1,6 +1,15 @@
-
+/* shared style =========== */
 body{
     font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .section-title{
     font-size: 48px;
@@ -13,7 +22,28 @@ body{
     color: #FF0000;
 }
 
+.margin{
+    margin-bottom: 0px;
+}
+
+.p-m {
+    padding: 0;
+    margin: 0;
+}
+
+.gray{
+    font-size: 20px;
+    color:#4e4d4f;
+    margin: 0px;
+}
+
+.color-fff{
+    color: #FFFFFF;
+}
+/* header style =========== */
 .header{
+    max-width: 1320px;
+    margin: 0px auto;
     height: 700px;
     background-image: url('../images/Banner\ Image.png');
     /* background-repeat: no-repeat; */
@@ -24,36 +54,21 @@ body{
     justify-content:center;
     align-items: center;
 }
-   
-   
-.container{
-    max-width: 1320px;
-    margin: 0px auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
 
-
-
-
+/* new year sec style ---------------- */
 .new-year p{
 
     text-align: center;
-    color: #FFFFFF;
     font-size: 2rem;
-    padding: 0px;
-    margin: 0px;
 
 }
 
 .new-year h1{
     text-align: center;
     font-size: 72px;
-    color: #FFFFFF;
-    padding: 0px;
-    margin: 0px;
 }
 
+/* off sec style ---------- */
 .off{
     text-align: center;
     color:#FF0000;
@@ -79,8 +94,7 @@ body{
     font-size: 48px;
     font-weight: 700;
     color: #070211;
-    padding: 0px;
-    margin: 0px;
+
 }
 
 .off-img{
@@ -90,6 +104,7 @@ body{
  
 }
 
+/* midnight section style ============== */
 .midnight-party{
     height: 600px;
     background-image: url('../images/Vectorrr.png');
@@ -97,31 +112,22 @@ body{
     background-size: cover;
     display: flex;
     margin-top: 100px;
-    margin-bottom: 0px;
     
 }
 
 .midnight-text h1{
     font-size: 64px;
     font-weight: 700;
-    color: #FFFFFF;
     word-spacing:20px;
     letter-spacing: 7px;
 }
 
 .midnight-text p{
     font-size: 18px;
-    color: #FFFFFF;
-}
-
-.common-style{
-    color: #FFFFFF;
-    text-align: center;
 }
 
 .midnight-text a{
     text-decoration: none;
-    color: #FFFFFF;
 
 
 }
@@ -167,7 +173,6 @@ body{
     padding: 15px 30px;
     background: #FF0000;
     border: 0;
-    color: #FFFFFF;
 }
 
 .coming-soon-container{
@@ -193,11 +198,6 @@ body{
     margin: 0px;
 }
 
-.gray{
-    font-size: 20px;
-    color:#4e4d4f;
-    margin: 0px;
-}
 
 .coming-soon-img img{
     border: 10px solid  #FF0000;
@@ -266,7 +266,16 @@ body{
 
 .por-content{
     margin-bottom: 50px;
+    padding-right: 150px;
 }
+.por-content p{
+    padding: 10px 0px;
+}
+.por-content h4{
+    margin: 0;
+    padding: 0;
+}
+
 
 /* subscribe style  */
 .subscribe{
@@ -287,10 +296,40 @@ body{
     background: #FF0000;
     color: #FFFFFF;
     border: 0;
+    border-radius: 0px 25px 25px 0px;
 }
 
 input{
-    padding:18px 40px ;
+    padding:18px 60px ;
     border: 0;
+    border-radius: 25px 0px 0px 25px;
+}
+
+/* footer style ---------- */
+
+footer{
+    background: #070211;
+    margin-bottom: 0;
+}
+
+.contacts{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px 20px 0px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px;
+}
+.rights{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 20px 0px 50px 0px;
+   
 }
 
